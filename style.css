@@ -68,3 +68,41 @@ a {
     flex-direction: column;
     gap: 10px;
 }
+
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    gap: 36px;
+}
+
+.cards-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards-con {
+    display: flex;
+    gap: 64px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+#card-1, #card-2, #card-3, #card-4 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 6px;
+}
